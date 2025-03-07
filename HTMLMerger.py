@@ -54,6 +54,5 @@ enable_button['width'] = 30
 enable_button['height'] = 2
 enable_button.pack()
 
-# Rodando o loop principal da aplicação
 root.mainloop()
 
