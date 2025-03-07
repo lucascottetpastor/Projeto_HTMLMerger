@@ -2,9 +2,6 @@ import os
 import tkinter as tk
 from tkinter import filedialog
 
-
-
-
 def lerarquivos(dir):
     lista = os.listdir(dir)
     HTMLinteiro = ''
@@ -45,7 +42,6 @@ root.option_add("*Font", ('Arial', 12))
 root.resizable(False, False)
 root.config(bg="#000000")
 
-# Criando um botão para selecionar a pasta
 btn_selecionar = tk.Button(root, text="Selecionar Pasta", command=selecionar_pasta)
 btn_selecionar.pack(pady=20)
 
